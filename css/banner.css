@@ -32,3 +32,21 @@
   padding: 1.2rem 1.6rem;
   width: 11.9rem;
 }
+
+@media screen and (min-width: 768px) {
+  .banner {
+    height: 35.2rem;
+    padding: 3.2rem;
+  }
+
+  .banner__titulo {
+    font-size: 5.2rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .banner__texto {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+  }
+}

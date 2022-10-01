@@ -6,11 +6,11 @@
   padding-top: 1.6rem;
 }
 
-.rodape__logo-alura {
+.rodape__info__menu__logo-alura {
   margin-bottom: 1.6rem;
 }
 
-.rodape__lista {
+.rodape__info__menu__lista {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -18,31 +18,31 @@
   margin-bottom: 1.6rem;
 }
 
-.rodape__lista__item {
+.rodape__info__menu__lista__item {
   font-size: 1.6rem;
   font-weight: 500;
   margin-bottom: 1.6rem;
 }
 
-.rodape__lista__item__link {
+.rodape__info__menu__lista__item__link {
   color: #464646;
   text-decoration: none;
 }
 
-.rodape__titulo__form {
+.rodape__info__contato__titulo {
   align-self: flex-start;
   font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 0.8rem;
 }
 
-.rodape__form {
+.rodape__info__contato__form {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.rodape__form__input-nome-placeholder {
+.rodape__info__contato__form__input-nome-placeholder {
   border: none;
   border-radius: 0.4rem 0.4rem 0 0;
   color: #a2a2a2;
@@ -52,7 +52,7 @@
   padding: 0.8rem 1.2rem 0 1.2rem;
 }
 
-.rodape__form__input-nome {
+.rodape__info__contato__form__input-nome {
   border: none;
   border-bottom: 1px solid #c8c8c8;
   border-radius: 0 0 0.4rem 0.4rem;
@@ -65,7 +65,7 @@
   padding: 0.4rem 1.2rem 0.7rem 1.2rem;
 }
 
-.rodape__form__textarea {
+.rodape__info__contato__form__textarea {
   border: none;
   border-bottom: 1px solid #c8c8c8;
   border-radius: 0.4rem;
@@ -77,20 +77,20 @@
   resize: vertical;
 }
 
-.rodape__form__textarea::placeholder {
+.rodape__info__contato__form__textarea::placeholder {
   color: #a2a2a2;
   font-family: 'Raleway', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
 }
 
-.rodape__form__input-nome-placeholder:focus,
-.rodape__form__input-nome:focus,
-.rodape__form__textarea:focus {
+.rodape__info__contato__form__input-nome-placeholder:focus,
+.rodape__info__contato__form__input-nome:focus,
+.rodape__info__contato__form__textarea:focus {
   outline: none;
 }
 
-.rodape__form__botao {
+.rodape__info__contato__form__botao {
   background-color: var(--azul-alura);
   border: none;
   color: white;
@@ -109,4 +109,33 @@
   padding: 3.2rem;
   text-align: center;
   width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+  .rodape {
+    padding-top: 3.2rem;
+  }
+
+  .rodape__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .rodape__info__menu {
+    width: 17.6rem;
+  }
+
+  .rodape__info__menu__lista {
+    align-items: flex-start;
+  }
+
+  .rodape__info__menu__lista__item {
+    margin-bottom: 3.2rem;
+  }
+
+  .rodape__info__contato {
+    width: 43.4rem;
+  }
 }

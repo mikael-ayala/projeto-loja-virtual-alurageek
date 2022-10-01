@@ -15,3 +15,72 @@
   height: 100%;
   width: 13.3rem;
 }
+
+.menu__pesquisa {
+  display: none;
+  visibility: hidden;
+}
+
+.menu__pesquisa-input {
+  display: none;
+  visibility: hidden;
+}
+
+.menu__pesquisa-input::placeholder {
+  color: #a2a2a2;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.menu__lupa-desktop {
+  display: none;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    padding: 1.6rem 3.2rem;
+  }
+
+  .menu__botao {
+    order: +1;
+    width: 16.6rem;
+  }
+
+  .menu__lupa {
+    display: none;
+    visibility: hidden;
+  }
+
+  .menu__pesquisa-label {
+    display: initial;
+    position: absolute;
+    margin-left: 13.2rem;
+    visibility: visible;
+  }
+
+  .menu__pesquisa-input {
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 2rem;
+    color: #a2a2a2;
+    display: initial;
+    height: 4rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 0.8rem 1.6rem;
+    visibility: visible;
+    width: 27.2rem;
+  }
+
+  .menu__lupa-desktop {
+    bottom: 0;
+    display: initial;
+    left: 23.2rem;
+    position: absolute;
+    top: 0.8rem;
+    visibility: visible;
+  }
+}

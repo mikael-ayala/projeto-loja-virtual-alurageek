@@ -30,6 +30,12 @@
   text-decoration: none;
 }
 
+.produtos__cabecalho__seta {
+  height: 1.6rem;
+  margin-left: 0.4rem;
+  width: 1.6rem;
+}
+
 .produtos__item {
   margin-bottom: 1.6rem;
 }
@@ -61,4 +67,16 @@
 .produtos__item:nth-child(7) {
   display: none;
   visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .produtos__cabecalho__texto {
+    font-size: 1.6rem;
+  }
+
+  .produtos__cabecalho__seta {
+    height: 2.4rem;
+    margin-left: 0.8rem;
+    width: 2.4rem;
+  }
 }
