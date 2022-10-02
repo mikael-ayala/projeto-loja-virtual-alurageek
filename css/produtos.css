@@ -83,7 +83,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .produtos {
+  .produtos:last-child {
     padding-bottom: 6.4rem;
   }
 
