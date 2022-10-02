@@ -139,3 +139,22 @@
     width: 43.4rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .rodape__info__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 46.4rem;
+  }
+
+  .rodape__info__menu__lista__item {
+    margin-bottom: 2.4rem;
+  }
+
+  .rodape__info__contato__form__botao {
+    font-size: 1.6rem;
+    height: 5.1rem;
+    font-weight: 400;
+    width: 16.5rem;
+  }
+}

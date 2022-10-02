@@ -41,6 +41,7 @@
 }
 
 .produtos__item__imagem {
+  width: 15.6rem;
   margin-bottom: 0.8rem;
 }
 
@@ -78,5 +79,21 @@
     height: 2.4rem;
     margin-left: 0.8rem;
     width: 2.4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .produtos {
+    padding-bottom: 6.4rem;
+  }
+
+  .produtos__cabecalho__titulo {
+    font-size: 3.2rem;
+  }
+
+  .produtos__item:nth-child(6),
+  .produtos__item:nth-child(7) {
+    display: initial;
+    visibility: visible;
   }
 }

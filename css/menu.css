@@ -84,3 +84,31 @@
     visibility: visible;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .menu {
+    height: 11.5rem;
+    padding: 3.2rem 15.2rem;
+  }
+
+  .menu__botao {
+    width: 18.2rem;
+  }
+
+  .menu__logo-alura {
+    height: 5rem;
+    width: 17.6rem;
+  }
+
+  .menu__pesquisa-label {
+    margin-left: 20.8rem;
+  }
+
+  .menu__pesquisa-input {
+    width: 39.3rem;
+  }
+
+  .menu__lupa-desktop {
+    left: 35.3rem;
+  }
+}

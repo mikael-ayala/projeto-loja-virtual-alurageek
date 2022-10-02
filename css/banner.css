@@ -50,3 +50,10 @@
     margin-bottom: 1.6rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    height: 35.2rem;
+    padding: 3.2rem 15.2rem;
+  }
+}
