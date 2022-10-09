@@ -6,6 +6,13 @@
   padding-top: 1.6rem;
 }
 
+.rodape__info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .rodape__info__menu__logo-alura {
   margin-bottom: 1.6rem;
 }
@@ -34,6 +41,10 @@
   font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 0.8rem;
+}
+
+.rodape__info__contato {
+  width: 100%;
 }
 
 .rodape__info__contato__form {
@@ -117,6 +128,7 @@
   }
 
   .rodape__info {
+    align-items: initial;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
